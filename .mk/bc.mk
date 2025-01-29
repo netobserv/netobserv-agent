@@ -37,8 +37,8 @@ define MAPS
 	"global_counters":"per_cpu_array",
 	"filter_map":"lpm_trie",
 	"peer_filter_map":"lpm_trie",
-	"sk_buffs_ingress_map":"hash",
-	"sk_buffs_egress_map":"hash"
+	"ipsec_ingress_map":"hash",
+	"ipsec_egress_map":"hash"
 }
 endef
 
